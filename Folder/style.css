@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://static.wixstatic.com/media/11062b_a6e1bb8d93704b859a65ba5d3dd3645a~mv2.jpg/v1/fill/w_1349,h_960,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_a6e1bb8d93704b859a65ba5d3dd3645a~mv2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px rgb(255, 255, 255) solid;
+    height: 10vh;
+    background-color: rgb(161, 155, 155);
+    z-index: 1000; /* Ensure the navbar is above other content */
+    transition: top 0.5s; /* Smooth transition when scrolling */
+    
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-container li {
+    margin-right: 45px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.list-container li:hover {
+    color: rgb(241, 245, 29);
+    cursor: pointer;
+}
+
+.nav-button {
+    font-size: 18px;
+    border-radius: 37px;
+    background-color: rgb(158, 63, 253,1);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.headline {
+    color: black;
+    margin: 100px;
+    padding: 76px;
+    text-align: left;
+    font-size: 97px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+      
+
+}
+.subheadline{
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+    margin: 20px;
+    transition: all 0.3s ease; 
+    
+}
+.homebutton{
+    font-size: 30px;
+    font-weight: 100;
+    border-radius: 36px;
+    padding: 17px;
+    margin: 37px;
+    color:white;
+    background-color: rgb(158, 63, 253,1);
+    border: none;
+}
+
+.content {
+    height: 2000px; /* Just for demonstration */
+    /* Add your content styles here */
+}
